@@ -46,5 +46,6 @@ public class LevelManager : MonoBehaviour
         manager.CardGameStarted();
         playButton.Started();
         checklist.SetActive(true);
+        checklist.transform.GetChild(0).gameObject.SetActive(true);
     }
 }

@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Application.targetFrameRate = 60;
         //IDCardUI.personID = CreateRandomID();
         actions.Add(CreateColorCondition);
         actions.Add(CreateAgeCondition);
